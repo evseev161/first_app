@@ -1,7 +1,7 @@
 class SayController < ApplicationController
   def hello
   	@time = Time.now
-  	@name = "Vladimir"
+  	@name = "User"
   end
 
   def goodbay
